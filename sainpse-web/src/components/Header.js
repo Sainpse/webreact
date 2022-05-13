@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Header.css';
 import Navigation from './Navigation';
 import Card from './Card';
-import Main from './Main';
+
 
 
 
@@ -20,8 +20,6 @@ class Header extends React.Component {
                     </h4>
                     <Card text="We're looking for ways make you smarter, more effective and successful. Join us on a journey through the evolution of augmenting our intuition with machine intelligence."/>
                 </section>
-                <Main />
-                <canvas className="background"></canvas>
             </div>
         )
     }

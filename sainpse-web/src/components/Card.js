@@ -8,7 +8,10 @@ class Card extends React.Component {
         return (
             <div className="card">
                 <div className="cardcontainer">
-                    <p>{this.props.text}</p>
+                    <i className={this.props.icon}></i>
+                    <h6 className="cardHeader">{this.props.header}</h6>
+                    <p  className="cardText">{this.props.text}</p>
+                    <p  className="cardFooter">{this.props.footer}</p>
                 </div>
             </div>
         )

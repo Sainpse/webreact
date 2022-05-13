@@ -1,0 +1,18 @@
+.aboutText{
+
+    font-size: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 2%;
+    color: #bdbdbd;
+}
+
+.sa-col {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 4;
+}
