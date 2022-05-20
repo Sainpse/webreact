@@ -163,12 +163,12 @@ a {
 @media (min-width: 800px) {
   .nav h1,
   .slider h1 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .nav h2,
   .slider h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .nav-tab {
