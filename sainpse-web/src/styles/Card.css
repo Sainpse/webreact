@@ -99,10 +99,10 @@
 /* Mobile */
 @media (min-width: 480px) {
     .card {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .cardText{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
 }
@@ -110,10 +110,10 @@
 /* Desktop */
 @media (min-width: 992px) {
     .card {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .cardText{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
 }
@@ -121,10 +121,10 @@
 /* Tablet */
 @media (min-width: 800px) {
     .card {
-        font-size: 1vw;
+        font-size: 3vw;
     }
     .cardText{
-        font-size: 1vw;
+        font-size: 3vw;
     }
     
 }
@@ -133,11 +133,11 @@
 /* 4k */
 @media (min-width: 1280px) {
     .card {
-        font-size: 0.7vw;
+        font-size: 1vw;
         margin-top: 80px;
     }
     .cardText{
-        font-size: 0.7vw;
+        font-size: 1vw;
     }
     
 }

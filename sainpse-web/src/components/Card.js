@@ -13,8 +13,8 @@ class Card extends React.Component {
                 <div className={this.props.cardContainerStyle}>
                     <i className={this.props.icon}></i>
                     <h6 className={this.props.headerStyle}>{this.props.header}</h6>
-                    <p  className="cardText">{this.props.text}</p>
-                    <p  className="cardFooter">{this.props.footer}</p>
+                    <p  className="cardText generalFont">{this.props.text}</p>
+                    <p  className="cardFooter generalFont">{this.props.footer}</p>
                 </div>
             </motion.div>
         )
