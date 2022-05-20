@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import  './styles/global.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
       <div className="App">
         <Header />
         <Main />
-        <canvas className="background"></canvas>
       </div>
     </ThemeProvider>
   );

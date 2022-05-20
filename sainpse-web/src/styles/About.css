@@ -16,3 +16,8 @@
     flex-flow: column wrap;
     flex-grow: 4;
 }
+
+.lightBackground{
+    background-color: #2e2e2e !important;
+}
+

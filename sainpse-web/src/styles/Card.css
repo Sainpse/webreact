@@ -1,6 +1,5 @@
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 1%;
     margin-top: 30px;
@@ -8,8 +7,14 @@
     background-color: rgba(245, 246, 250, 1.0);
     font-family: "Josefin Sans", sans-serif;
     font-size: 3vw;
-    border-radius: 5px;
-    background-color: #242424;
+    border-radius: 10px;
+    background-color: #242424 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+    color: rgb(212, 212, 212);
+    align-content: center;
+    text-align: left;
+    align-items: center;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -28,6 +33,8 @@
 .cardcontainer {
     padding: 2px 16px;
     background-color: #242424;
+    min-height: 320px;
+    max-width: 800px;
 }
 
 .cardHeader{
@@ -60,6 +67,31 @@
     border-radius:12px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transition: 0.5s;
+}
+
+/* Card styles */
+.cardAccent{
+    background-color: #004d40 !important;
+}
+.cardContainerAccent{
+    background-color: #004d40 !important ;
+}
+.cardAccentLight{
+    background-color: #004d40 !important;
+}
+.cardContainerAccentLight{
+    background-color: #004d40 !important ;
+}
+.cardDark{
+    background-color: #212121 !important;
+}
+.cardContainerDark{
+    background-color: #212121 !important ;
+}
+
+/* CardHeader Styles */
+.cardHeaderDark{
+    background-color: #212121 !important;
 }
 
 
