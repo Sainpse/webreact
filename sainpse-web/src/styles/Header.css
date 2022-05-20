@@ -43,6 +43,14 @@ h2 {
   padding: 0 2em;
 }
 
+.backgroundHeaderIMG{
+  background-image: url("/img/backgroundSainpse.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .nav h1,
 .slider h1 {
   font-family: "Josefin Sans", sans-serif;
@@ -155,7 +163,7 @@ a {
 @media (min-width: 800px) {
   .nav h1,
   .slider h1 {
-    font-size: 5vw;
+    font-size: 2vw;
   }
 
   .nav h2,

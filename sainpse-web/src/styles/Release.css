@@ -1,0 +1,12 @@
+.sa-col {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 4;
+}
+
+.darkBackground{
+    background-color: #212121 !important;
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Header.css';
 import Release from './Release';
+import About from './About';
+
 
 
 
@@ -12,10 +14,7 @@ class Main extends React.Component {
             <div>
                 <main className="main">
                     <Release />
-                    <section className="slider" id="tab-graphql">
-                        <h1>GraphQL</h1>
-                        <h2>a query language for APIs</h2>
-                    </section>
+                    <About />
                     <section className="slider" id="tab-next">
                         <h1>NEXT</h1>
                         <h2>framework
