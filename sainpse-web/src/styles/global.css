@@ -5,8 +5,8 @@
 
 
 .noOverlap{
-    display: block;
-    padding-top: 20vh;
+    display:inherit;
+    padding-top: 20vh !important;
 }
 
 

@@ -12,7 +12,7 @@
     align-items: center;
     align-content: center;
     text-align: center;
-    display: flex;
+    display: run-in;
     flex-flow: column wrap;
     flex-grow: 4;
 }

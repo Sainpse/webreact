@@ -89,20 +89,24 @@
     background-color: #212121 !important ;
 }
 
+
 /* CardHeader Styles */
 .cardHeaderDark{
     background-color: #212121 !important;
 }
+
+    background-color: #004d40 !important ;
+
 
 
 
 /* Mobile */
 @media (min-width: 480px) {
     .card {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .cardText{
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     
 }
@@ -110,10 +114,10 @@
 /* Desktop */
 @media (min-width: 992px) {
     .card {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .cardText{
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     
 }
@@ -121,10 +125,10 @@
 /* Tablet */
 @media (min-width: 800px) {
     .card {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     .cardText{
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     
 }
@@ -139,5 +143,6 @@
     .cardText{
         font-size: 1vw;
     }
-    
+
 }
+    

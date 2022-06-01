@@ -2,6 +2,8 @@ import React from 'react';
 import '../styles/Header.css';
 import Release from './Release';
 import About from './About';
+import Resources from './Resources'
+
 
 
 
@@ -16,14 +18,7 @@ class Main extends React.Component {
                 <main className="main">
                     <Release />
                     <About />
-                    <section className="slider" id="tab-typescript">
-                        <h1>Resources</h1>
-                        <h2>giving you better tooling at any scale</h2>
-                    </section>
-                    <section className="slider" id="tab-deno">
-                        <h1>About</h1>
-                        <h2>a modern runtime </h2>
-                    </section>
+                    <Resources />
                 </main>
                 <canvas className="background"></canvas>
             </div>
