@@ -19,7 +19,7 @@ window.onload = function () {
         options: {
           color: ["#faebd7", "#03dac6", "#ff0266"],
           maxParticles: 43,
-          connectParticles: true
+          connectParticles: false
         }
       }
     ]
